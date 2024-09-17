@@ -1,4 +1,4 @@
-export default function () {
+export default function ProjectsPage() {
   return (
       <>
           <span className='text-4xl'>💬</span>

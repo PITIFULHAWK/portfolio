@@ -1,16 +1,6 @@
 import Image from "next/image";
-import {
-    HomeIcon,
-    AboutIcon,
-    ProjectsIcon,
-    ContributionsIcon,
-    ArticlesIcon,
-    GithubIcon,
-    LinkedinIcon,
-    XIcon,
-    MailIcon,
-} from "./Icons";
-import Link from "next/link";
+import { MenuItem1 } from "./MenuItem1";
+import { MenuItem2 } from "./MenuItem2";
 
 export const SideBar = () => {
     return (
@@ -46,99 +36,6 @@ export const SideBar = () => {
     );
 };
 
-const MenuItem1 = () => {
-    return (
-        <div className='text-white text-sm'>
-            <Link href='/'>
-                <div className='flex p-2 hover:bg-[#1F2937] rounded-lg cursor-pointer'>
-                    <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                        {HomeIcon}
-                    </p>
-                    Home
-                </div>
-            </Link>
-            <Link href='/about'>
-                <div className=' flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg cursor-pointer'>
-                    <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                        {AboutIcon}
-                    </p>
-                    About
-                </div>
-            </Link>
-            <Link href='/projects'>
-                <div className='flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg cursor-pointer'>
-                    <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                        {ProjectsIcon}
-                    </p>
-                    Projects
-                </div>
-            </Link>
-            <Link href='/contribution'>
-                <div className='flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg cursor-pointer'>
-                    <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                        {ContributionsIcon}
-                    </p>
-                    Contributions
-                </div>
-            </Link>
-            <Link href='/articles'>
-                <div className='flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg cursor-pointer'>
-                    <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                        {ArticlesIcon}
-                    </p>
-                    Articles
-                </div>
-            </Link>
-        </div>
-    );
-};
-
-const MenuItem2 = () => {
-    return (
-        <div className='text-white text-sm'>
-            <a
-                className='flex p-2 hover:bg-[#1F2937] rounded-lg  cursor-pointer'
-                href='https://github.com/PITIFULHAWK'
-                target='_blank'
-            >
-                <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                    {GithubIcon}
-                </p>
-                Github
-            </a>
-            <a
-                className=' flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg  cursor-pointer'
-                href='https://www.linkedin.com/in/shivam-sourav-7b99832ba/'
-                target='_blank'
-            >
-                <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                    {LinkedinIcon}
-                </p>
-                LinkedIn
-            </a>
-            <a
-                className='flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg cursor-pointer'
-                href='https://x.com/sourav_shi7274'
-                target='_blank'
-            >
-                <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                    {XIcon}
-                </p>
-                X
-            </a>
-            <a
-                className='flex p-2 mt-1 hover:bg-[#1F2937] rounded-lg cursor-pointer'
-                href='mailto:sxxxxxs1973@gmail.com'
-                target='_blank'
-            >
-                <p className='focus:text-blue-600 flex justify-center items-center mr-2'>
-                    {MailIcon}
-                </p>
-                Mail
-            </a>
-        </div>
-    );
-};
 
 const CvButton = () => {
     return (
