@@ -3,10 +3,10 @@ export default function Home() {
         <>
             <span className='text-4xl'>👋</span>
             <h1 className='lg:text-4xl md:text-xl text-[#AEAEAE] text-base font-bold'>
-                Hello there! I'm Shivam
+                Hello there! I&apos;m Shivam
             </h1>
             <p className='text-sm lg:text-base font-normal max-w-xl mt-4'>
-                I'm a full-stack developer that loves{" "}
+                I&apos;m a full-stack developer that loves{" "}
                 <span className='bg-neutral-700 px-2 py-1 rounded-lg'>
                     building projects
                 </span>{" "}
