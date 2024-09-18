@@ -41,8 +41,8 @@ export default function RootLayout({
                             </main>
 
                             <div className='p-4 text-center justify-center text-xs text-neutral-500 border-t border-gray-700'>
-                                <span className='font-semibold'>2024</span>—
-                                Built by
+                                <span className='font-semibold'>2024</span>{" "}—
+                                Built by{" "}
                                 <a
                                     target='_blank'
                                     href='https://x.com/sourav_shi7274'
