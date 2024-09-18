@@ -21,5 +21,5 @@ This is a personal portfolio website that showcases my skills, projects, and con
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/portfolio-website.git](https://github.com/PITIFULHAWK/portfolio.git)
-```
+   git clone https://github.com/your-username/portfolio-website.git
+    ```
