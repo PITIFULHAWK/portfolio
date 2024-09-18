@@ -2,7 +2,7 @@ import Image from "next/image";
 import { MenuItem1 } from "./MenuItem1";
 import { MenuItem2 } from "./MenuItem2";
 
-export const SideBar = () => {
+export const SideBar = ({ closeSidebar }: { closeSidebar: () => void }) => {
     return (
         <div className='flex py-10 px-6 text-white'>
             <div className='flex flex-col place-content-between '>
@@ -23,14 +23,20 @@ export const SideBar = () => {
                         </div>
                     </div>
                     <div className='py-10'>
+                        <div onClick={closeSidebar}>
                         <MenuItem1 />
+                        </div>
                         <div className='font-semibold text-slate-400 pt-10 px-1 text-sm'>
                             Socials
                         </div>
+                        <div onClick={closeSidebar}>
                         <MenuItem2 />
+                        </div>
                     </div>
                 </div>
+                <div onClick={closeSidebar}>
                 <CvButton />
+                </div>
             </div>
         </div>
     );
