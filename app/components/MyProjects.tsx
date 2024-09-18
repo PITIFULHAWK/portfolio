@@ -78,7 +78,7 @@ export const MyProjects = () => {
                 >
                     <Image
                         className='rounded-lg'
-                        src='/images/Screenshot 2024-08-26 152305LOGIN.png'
+                        src='/images/Screenshot 2024-09-18 173111.png'
                         alt='Rounded avatar'
                         width={200}
                         height={200}

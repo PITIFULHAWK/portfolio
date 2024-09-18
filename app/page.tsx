@@ -39,7 +39,7 @@ export default function Home() {
                     PostgreSQL
                 </p>
                 <p className='bg-gray-950 hover:text-white hover:opacity-75 rounded-full py-3 px-4 text-primary text-sm sm:text-md text-center'>
-                    Empty
+                    Cloudflare
                 </p>
                 <p className='bg-gray-950 hover:text-white hover:opacity-75 rounded-full py-3 px-4 text-primary text-sm sm:text-md text-center'>
                     MongoDB
