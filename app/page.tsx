@@ -48,7 +48,7 @@ export default function Home() {
                     Typescript
                 </p>
                 <p className='bg-gray-950 hover:text-white hover:opacity-75 rounded-full py-3 px-4 text-primary text-sm sm:text-md text-center'>
-                    Empty
+                    Javascript
                 </p>
                 <p className='bg-gray-950 hover:text-white hover:opacity-75 rounded-full py-3 px-4 text-primary text-sm sm:text-md text-center'>
                     Docker
