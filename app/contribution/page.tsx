@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "Contribution | Shivam Sourav",
+    description: "Created by Shivam",
+  };
+
 export default function ContributionPage() {
     return (
         <>

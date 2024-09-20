@@ -1,5 +1,10 @@
 import { MyProjects } from "../components/MyProjects";
 
+export const metadata = {
+    title: "Projects | Shivam Sourav",
+    description: "Created by Shivam",
+  };
+
 export default function ProjectsPage() {
   return (
       <>

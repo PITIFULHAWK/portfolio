@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "Articles | Shivam Sourav",
+    description: "Created by Shivam",
+  };
+
 export default function ArticlePage() {
     return (
         <>
